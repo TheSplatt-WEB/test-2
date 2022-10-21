@@ -139,6 +139,10 @@
 
 			&.choices__item--choice {
 				padding: 8px;
+
+				@media (min-width: 640px) {
+					padding-right: 8px;
+				}
 			}
 
 			&.is-highlighted.choices__item--selectable {
