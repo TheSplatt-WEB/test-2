@@ -1,0 +1,24 @@
+// Подключение миксинов
+@import 'base/mixins.scss';
+
+// Подключение переменных
+@import 'base/vars.scss';
+
+// Подключение шрифтов
+@import 'base/fonts.scss';
+
+// Сброс стилей
+@import 'base/reset.scss';
+
+// Подключение глобальных стилей
+@import 'base/global.scss';
+
+// Подключение компонентов
+@import '../../node_modules/choices.js/public/assets/styles/choices';
+
+//*************************************************************//
+
+// Секции
+
+// index
+@import 'index/preferences.scss';

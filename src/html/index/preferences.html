@@ -1,0 +1,133 @@
+<section class="preferences">
+	<div class="preferences__container container">
+		<h1 class="preferences__title">Preferences</h1>
+
+		<p class="preferences__descr">On this page you can configure the main system parameters available for customization</p>
+
+		<form class="preferences__form main-form" name="mainForm" action="#">
+			<div class="main-form__item">
+				<label class="main-form__label" for="company">Company Title</label>
+				<input class="main-form__field" type="text" id="company" name="company" placeholder="Default">
+			</div>
+
+			<div class="main-form__item">
+				<label class="main-form__label" for="day">First Day</label>
+				<select class="main-form__field js-choice" id="day" name="day">
+					<option class="main-form__option" value="0">Monday</option>
+					<option class="main-form__option" value="1">Tuesday</option>
+					<option class="main-form__option" value="2">Environment</option>
+					<option class="main-form__option" value="3">Thursday</option>
+					<option class="main-form__option" value="4">Friday</option>
+					<option class="main-form__option" value="5">Saturday</option>
+					<option class="main-form__option" value="6">Sunday</option>
+				</select>
+			</div>
+
+			<div class="main-form__item">
+				<label class="main-form__label" for="container">Container Width</label>
+				<select class="main-form__field" id="container" name="container">
+					<option class="main-form__option" value="0">Fixed</option>
+					<option class="main-form__option" value="1">Free width</option>
+				</select>
+			</div>
+
+			<div class="main-form__item">
+				<label class="main-form__label" for="homepage">Homepage</label>
+				<select class="main-form__field" id="homepage" name="homepage">
+					<option class="main-form__option" value="0">Starred Projects</option>
+					<option class="main-form__option" value="1">About</option>
+					<option class="main-form__option" value="2">Contacts</option>
+				</select>
+			</div>
+
+			<div class="main-form__item">
+				<label class="main-form__label" for="size">Indent Size</label>
+				<input class="main-form__field" type="text" id="size" name="size" placeholder="Default">
+			</div>
+
+			<div class="main-form__item">
+				<span class="main-form__label">Personal Code</span>
+
+				<div class="main-form__code-inner">
+					<div class="main-form__code-item">
+						<label class="sr-only" for="code-field-1"></label>
+						<input class="main-form__field main-form__field--code" type="text" id="code-field-1" name="codeField1" maxlength="4" placeholder="Default">
+					</div>
+
+					<div class="main-form__code-item">
+						<label class="sr-only" for="code-field-2"></label>
+						<input class="main-form__field main-form__field--code" type="text" id="code-field-2" name="codeField2" maxlength="4" placeholder="Default">
+					</div>
+
+					<div class="main-form__code-item">
+						<label class="sr-only" for="code-field-3"></label>
+						<input class="main-form__field main-form__field--code" type="text" id="code-field-3" name="codeField3" maxlength="4" placeholder="Default">
+					</div>
+
+				</div>
+			</div>
+
+			<p class="main-form__code-text">12 digits</p>
+
+			<div class="main-form__item main-form__item--radio">
+				<span class="main-form__label">Theme</span>
+
+				<div class="main-form__radio-inner">
+					<div class="main-form__radio-item">
+						<input class="main-form__radio-input" type="radio" id="light" name="theme" value="light" checked>
+						<label class="main-form__radio-label" for="light">Light</label>
+					</div>
+
+					<div class="main-form__radio-item">
+						<input class="main-form__radio-input" type="radio" id="dark" name="theme" value="dark">
+						<label class="main-form__radio-label" for="dark">Dark</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-form__buttons">
+				<button class="main-form__btn main-form__btn--apply" type="submit">Apply and Save</button>
+				<button class="main-form__btn main-form__btn--cancel" type="reset">Cancel</button>
+			</div>
+		</form>
+
+		<div class="preferences__terms">
+			2020-2022 <a class="preferences__link" href="#" target="_blank">Terms of Service</a> and <a class="preferences__link" href="#" target="_blank">Conditions</a>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- let inputsArray = []; -->
+
+<!-- // 		const radioButtons = document.querySelectorAll('.main-form__radio-input');
+		// 
+		// 		for (let i = 0; i < inputs.length; i++) {
+		// 			const item = inputs[i];
+		// 
+		// 			inputsArray.push(item.value);
+		// 			sessionStorage.setItem('inputs', JSON.stringify(inputsArray));
+		// 			const data = JSON.parse(sessionStorage.getItem('inputs'))
+		// 
+		// 			console.log(data);
+		// 		} -->
+
+
+<!-- // 
+		// 		let radioButtonssArray = [];
+		// 		for (let i = 0; i < radioButtons.length; i++) {
+		// 			const item = radioButtons[i];
+		// 
+		// 			radioButtonssArray.push(item.checked);
+		// 			sessionStorage.setItem('radio-buttons', JSON.stringify(radioButtonssArray));
+		// 			const data = JSON.parse(sessionStorage.getItem('radio-buttons'));
+		// 
+		// 			console.log(data);
+		// 		} -->
